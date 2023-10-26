@@ -1,5 +1,4 @@
 /* 3. Style the button */
-
 /* 
     Basic styling for the button:
     - Set background color to Hot Pink (#FF69B4)
@@ -9,9 +8,14 @@
     - Extra: Make the corners rounded
 */
 button {
-    font-size: 5px;
-    cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
+  cursor: pointer;
+  background-color: #FF69B4;
+  color: white; 
+  padding: 3px 5px;
+  font-size: 16px;
+  border-radius: 50px;
+
+  transition: transform 0.3s, background-color 0.3s, font-size 0.3s;
 }
 
 /* 
@@ -20,9 +24,10 @@ button {
     - Set the font size to 18px
 */
 button:hover {
-    
+  background-color: #8B008B;
+  font-size: 18px;
 }
 
 button:active {
-    transform: scale(0.95);
+  transform: scale(0.95);
 }
